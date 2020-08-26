@@ -1,0 +1,10 @@
+---
+applications:
+- name: bora-myadmin
+  memory: 512M
+  host: bora-myadmin
+  domain: paas-ta.org
+  services:
+  - bora-mysql-db
+  instances: 1
+  disk_quota: 512M
